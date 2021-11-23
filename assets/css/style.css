@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     outline: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .img-fluid{
     width: 100%;
@@ -27,7 +27,7 @@
 .header{
     position: absolute;
     left: 0;
-    top: 0;
+    top: 10px;
     width: 100%;
     z-index: 1;
     padding: 10px 0 0;
@@ -55,7 +55,7 @@ nav{
     background-color:#088;
   }
   nav ul li a{
-      font-size: 17px;
+    font-size: 17px;
     text-decoration: none;
     color: #fff;
     padding: 20px;
@@ -68,4 +68,155 @@ nav{
 }
 .downarrow{
     margin-right:15px;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+.mt-1 {
+  margin-top: 5px !important;
+}
+.mt-2 {
+  margin-top: 10px !important;
+}
+.mt-3 {
+  margin-top: 15px !important;
+}
+.mt-4 {
+  margin-top: 20px !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.mb-1 {
+  margin-bottom: 5px !important;
+}
+.mb-2 {
+  margin-bottom: 10px !important;
+}
+.mb-3 {
+  margin-bottom: 15px !important;
+}
+.mb-4 {
+  margin-bottom: 20px !important;
+}
+
+.ml-0 {
+  margin-left: 0 !important;
+}
+.ml-1 {
+  margin-left: 5px !important;
+}
+.ml-3 {
+  margin-left: 10px !important;
+}
+.ml-4 {
+  margin-left: 15px !important;
+}
+.ml-5 {
+  margin-left: 20px !important;
+}
+
+
+.round-rectangle-1 {
+  width: 100px;
+  height: 30px;
+  margin: 4px 2px;
+  padding: 12px 25px;
+  border-radius: 25px;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-color:transparent;
+}
+.round-rectangle-2 {
+  width: 100px;
+  height: 25px;
+  margin: 4px 2px;
+  padding: 12px 35px;
+  border-radius: 25px;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-color:transparent;
+}
+
+.first-page-center-text{
+  position: absolute;
+  margin-left: 58px;
+  top:330px;
+  color: white;
+}
+
+.first-page-center-text ul li{
+  list-style-type: none;
+}
+
+.heading{
+  font-size: 50px;
+}
+
+.list-points{
+  line-height: 1.6;
+}
+.first-page-center-text{
+  position: absolute;
+  margin-left: 58px;
+  top:320px;
+  color: white;
+}
+.first-page-center-button{
+  position: absolute;
+  margin-left: 668px;
+  top: 463px;
+}
+.btn-green{
+  border-radius: 27px;
+  border: solid 1px white;
+  background-color: #006072;
+  opacity:0.7;
+  font-weight: bold !important;
+  width: 235px;
+  height: 54px;
+  margin: 16px 7px 157px 0;
+  padding: 16px 33px 22px 31px;
+
+}
+div button span{
+  font-size: 18px;
+  color: white;
+}
+
+.first-page-below-images{
+  position: absolute;
+  top:680px;
+  margin-left: 260px;
+}
+
+.first-page-below-images ul li{
+  list-style-type: none;
+  margin-right:80px;
+  display: inline;
+}
+
+.first-page-below-images-text{
+  position: absolute;
+  top:790px;
+  font-size: 20px;
+  margin-left: 190px;
+}
+
+.first-page-below-images-text ul li{
+  list-style-type: none;
+  margin-right:70px;
+  color: white;
+  display: inline;
+}
+
+.down-arrow-circle{
+  position: absolute;
+  top: 857px;
+  margin-left: 769px;
+}
+.down-arrow-shape{
+  position: absolute;
+  top: 867px;
+  margin-left: 781px;
 }
